@@ -1,0 +1,7 @@
+{
+  "name": "ns-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
