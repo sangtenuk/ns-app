@@ -1,6 +1,19 @@
 ion-button[color="dark"] {
   text-transform: initial;
 }
-ion-content {
-  --background: #2dd36f;
+ion-card {
+  text-align: center;
+  h1,h2,h3,h4,h5,h6 {
+  color: #22215b;
+}
+p {
+  color: #888888;
+}
+  ion-content {
+
+    --background: #f4f6fb;
+
+    // --background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  }
+  padding: 20%;
 }

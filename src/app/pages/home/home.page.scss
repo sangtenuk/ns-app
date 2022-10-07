@@ -2,12 +2,49 @@ ion-list {
   padding: 0;
   box-shadow: 0 1px 2px 1px rgb(0 0 0 /20%);
 }
+// span {
+
+// }
 ion-card {
+  ion-datetime {
+    --background: #ffffff;
+  }
+  --background: #ffffff;
+
   ion-card-subtitle {
+    color: #3a3a3a;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
+  }
+  ion-item {
+    --background: #f6f9fb;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    // border-style: unset !important;
+  }
+  h1,h2,h3,h4,h5, h6 {
+    color:#23225b;
+    font-weight: 500;
+    font-size: larger;
+    // font-kerning: inherit;
+    margin-bottom: -1%;
   }
   p {
     white-space: normal;
+    color: #555555;
+  }
+  a {
+    color: #0061ff;
+
+  }
+  span {
+    font-size: small;
+    font-weight: lighter;
+    font-style: italic;
   }
 }
+ion-content {
+  // --background: #2dd36f;
+  --background: #f4f6fb;
+}
+
