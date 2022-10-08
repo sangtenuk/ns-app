@@ -1,6 +1,6 @@
 
 <ion-card>
-  <ion-card-header>
+  <ion-card-header *ngIf="hasHeader">
       <ion-card-subtitle>
         Last Update
       </ion-card-subtitle>
@@ -19,6 +19,6 @@
         <p>Notes: Saja test</p>
       </ion-label>
     </ion-item>
-    <ion-button  fill="clear" size="full">See all</ion-button>
+    <ion-button *ngIf="hasFooter" fill="clear" size="full">See all</ion-button>
   </ion-card-content>
 </ion-card>
